@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registation</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="register.html" href="register.html">
     <style>
         body{
             background-image: url('mainpage.jpg');
@@ -23,7 +24,8 @@
         </header>
         <div>
             <div class="content">
-                <form action="reg.php" method="POST">
+                <form action="register.html" method="get">
+
                    <br>
                     <label for="name">Name:</label>
                     <input type="text" name="name" id="name" required><br>
@@ -43,10 +45,16 @@
                     <input type="text" name="state" id="state" required><br>
                     <label for="college">College</label>
                     <input type="text" name="college" id="college" required><br>
-                    <button type="submit">Register</button>
+                    <a href="register.html">Register</a
+                    
                 </form>
            
-            
+            <div>
+                <section>
+                    <h2>Already have an account?</h2>
+                    <a href="login.php">login</a>
+                </section>
+            </div>
         </body>
         
 
