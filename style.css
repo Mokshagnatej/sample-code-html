@@ -27,3 +27,8 @@ color: burlywood;
     animation: reverse;
     animation-duration: 4s;
 }
+.login{
+    text-align: center;
+    padding-top: 20%;
+    text-size-adjust: 20px;
+}
