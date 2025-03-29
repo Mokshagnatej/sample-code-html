@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Course Selection</title>
+    <link rel="selected-course" href="submit-course.html">
+   
     <style>
         body {
             background-image: url('mainpage.jpg');
@@ -46,12 +48,13 @@
         .form-container input[type="submit"]:hover {
             background-color: #45a049;
         }
+
     </style>
 </head>
 <body>
     <div class="form-container">
         <h2>Course Selection</h2>
-        <form action="/submit-course" method="POST">
+        <form action="/submit-course.html" method="POST">
             <label for="student-name">Student Name:</label>
             <input type="text" id="student-name" name="student-name" placeholder="Enter your name" required>
             
@@ -68,6 +71,7 @@
             </select>
             
             <input type="submit" value="Submit">
+           
         </form>
     </div>
 </body>
